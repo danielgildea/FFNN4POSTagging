@@ -1,5 +1,7 @@
 # FFNN_for_POStagging
 
+This repository is for teaching and educational purpose, not relevant to my research!
+
 In general, I use a feed forward neural network, which takes the embeddings of 5 consecutive words as the input and predicts the POS tag for the 3rd input word (the center word).
 I use [Keras](https://keras.io/) for my implementation.
 My network has the following layers. 
