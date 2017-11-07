@@ -8,4 +8,4 @@ A Flatten layer, flattening tensors of shape [batch_size, word_num, embedding_di
 Then two Dense layers, followed by a softmax layer.
 
 The architecture looks like this
-
+![alt text](model_archi.png)
