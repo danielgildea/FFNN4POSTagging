@@ -8,4 +8,11 @@ A Flatten layer, flattening tensors of shape [batch_size, word_num, embedding_di
 Then two Dense layers, followed by a softmax layer.
 
 The architecture looks like this
-![alt text](model_archi.png)
+<img src="model_archi.png" width="500"/>
+
+To train the system, first type "python prep.py" to prepare data, then type "python tagger.py" to train the tagger.
+
+To install background softwares:
+
+1. pip --upgrade --user keras
+2. pip --upgrade --user tensorflow
